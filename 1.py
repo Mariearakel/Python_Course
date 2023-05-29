@@ -20,7 +20,7 @@
 # Write a function that searches a list of names (unsorted) for the name "Bob" and returns the location in the list. If Bob is not in the list, return -1.
 
 # names=(["Leyla", "Anna",])
-# name=names.index("Bob",)
+# name=names.index("Bob",) + "Bob" not in name*(-1)
 # print(name)
 
 # .6 Create a function that takes a dictionary of student names and returns a list of student names in alphabetical order.
@@ -83,17 +83,17 @@
 # print(sample_dict)
 
 
-# EXTRA Knowledge
-# 4. Given a list of numbers, write a function that returns a list that...
-# Has all duplicate elements removed.
-# Is sorted from least to greatest value.
-# Examples
-# unique_sort([1, 2, 4, 3]) ➞ [1, 2, 3, 4]
-# unique_sort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
-# unique_sort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]
+'''EXTRA Knowledge
+4. Given a list of numbers, write a function that returns a list that...
+Has all duplicate elements removed.
+Is sorted from least to greatest value.
+Examples
+unique_sort([1, 2, 4, 3]) ➞ [1, 2, 3, 4]
+unique_sort([1, 4, 4, 4, 4, 4, 3, 2, 1, 2]) ➞ [1, 2, 3, 4]
+unique_sort([6, 7, 3, 2, 1]) ➞ [1, 2, 3, 6, 7]'''
 
 
-duplicate=[6, 7, 3, 2, 1]
-x=(list(set(duplicate)))
-x.sort()
+y=([6, 7, 3, 2, 1])
+x=(list(set(y)))
+# x.sort()
 print(x)
